@@ -10,6 +10,7 @@ public class cadastrarEmailTest {
 	public void testEmailValido() {
 		assertTrue(cadastrarEmail.validarEmail("professores@e2etreinamentos.com.br"));
 		assertTrue(cadastrarEmail.validarEmail("professor@e2etreinamentos.com"));
+		assertTrue(cadastrarEmail.validarEmail("aluno@e2etreinamentos.com.br"));
 		
 	}
 	@Test
